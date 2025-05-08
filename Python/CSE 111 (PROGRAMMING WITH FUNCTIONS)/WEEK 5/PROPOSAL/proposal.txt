@@ -1,0 +1,76 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+ans = Medication Reminder System
+
+2. What real-world problem will your program address or help to solve?
+ans = Many patients, especially the elderly, have difficulty remembering when to take their medications. This program will provide reminders for users, ensuring they don't miss their scheduled doses and stay on top of their medication routines
+
+3. What will you learn from developing this program?
+ans = 
+How to manage time-based events and notifications in Python.
+
+How to handle user input and store simple data (using basic file handling techniques like CSV).
+
+How to write reusable functions and implement a simple, yet effective, reminder system.
+
+
+
+4. What Python modules will your program use?
+ans =
+datetime: For managing the timing of medication reminders.
+
+time: To schedule reminders and set intervals.
+
+csv: For saving and retrieving medication data (like names and times).
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+ans = 
+add_medication(): A function to allow users to add medications and set the time they need to be taken.
+
+view_medications(): A function to display all the medications and their corresponding times.
+
+set_reminder(): A function to schedule the reminder for a specific time.
+
+send_reminder(): A function that sends the reminder notification when it's time for the medication.
+
+save_data(): A function to save the list of medications to a file, so data isn't lost when the program is closed.
+
+load_data(): A function to load the saved medication list when the program starts up.
+
+main(): The main function to run the program. This will serve as the entry point, allowing the user to interact with the system, choose options like adding a medication, viewing the list, and setting reminders.
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+ans = 
+
+test_add_medication(): To test if the program correctly adds medications to the list.
+
+test_view_medications(): To ensure that the list of medications is displayed properly.
+
+test_save_data(): To test if the medication data is being saved correctly to a file.
+
+test_load_data(): To check that the saved medication data loads properly when the program starts.
+

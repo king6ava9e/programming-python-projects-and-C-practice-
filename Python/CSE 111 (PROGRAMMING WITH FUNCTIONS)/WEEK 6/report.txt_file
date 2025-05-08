@@ -1,0 +1,26 @@
+No.	Description
+1	I have been working on this Medication Reminder System project for over a week. Although it hasn’t exceeded 24 hours, I’ve definitely put in focused effort and gone beyond the minimum required hours.
+2	My program is structured into multiple functions, each designed to do a specific task. This makes the code modular and easy to maintain.
+3	I’ve made significant progress on the project and just completed a good portion of the core features. That’s why my answers in this submission may differ from earlier ones.
+4	Function Names in the Main Program (medication_reminder.py):
+• create_csv_file()
+• add_medication()
+• view_medications()
+• (Planned: set_reminder(), send_reminder(), save_data(), load_data(), main())
+5	Test Function Names in the Test File (test_medication_reminder.py):
+• test_create_csv_file()
+• test_add_medication()
+• test_view_medications()
+6	Resources Used:
+• Python documentation on csv and datetime
+• Pytest documentation for testing
+• YouTube tutorials on writing tests, mocking input, and using CSVs in Python
+7	Coding Experiments:
+• Practiced using unittest.mock.patch to simulate user input
+• Used StringIO to capture output from functions
+• Worked with file setup and cleanup during testing
+8	Work Completed:
+• Built the add_medication() function to collect and save medication info to a CSV
+• Built the view_medications() function to read and display data from the CSV
+• Wrote and passed test cases for all three main functions
+• Ensured my code is ready for the next step: implementing time-based reminders and saving/loading data automatically
